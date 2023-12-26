@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav>
       <NavLink to="/" className="header">
-        <i className="fab fa-hive"></i> Home
+        <i className></i> Home
       </NavLink>
       <ul
         className="navbar-links"
@@ -16,17 +16,17 @@ export default function Navbar() {
       >
         <li>
           <NavLink to="/Registration" activeClassName="nav-active">
-            <i className="far fa-registered" /> Registration
+            <i className/> Registration
           </NavLink>
         </li>
         <li>
           <NavLink to="/Voting" activeClassName="nav-active">
-            <i className="fas fa-vote-yea" /> Voting
+            <i className/> Voting
           </NavLink>
         </li>
         <li>
           <NavLink to="/Results" activeClassName="nav-active">
-            <i className="fas fa-poll-h" /> Results
+            <i className/> Results
           </NavLink>
         </li>
       </ul>

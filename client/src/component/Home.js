@@ -8,7 +8,7 @@ import Navbar from "./Navbar/Navigation";
 import NavbarAdmin from "./Navbar/NavigationAdmin";
 import UserHome from "./UserHome";
 import StartEnd from "./StartEnd";
-import ElectionStatus from "./ElectionStatus";
+//import ElectionStatus from "./ElectionStatus";
 
 // Contract
 import getWeb3 from "../getWeb3";
@@ -293,10 +293,7 @@ export default class Home extends Component {
               elEnded={this.state.elEnded}
               endElFn={this.endElection}
             />
-            <ElectionStatus
-              elStarted={this.state.elStarted}
-              elEnded={this.state.elEnded}
-            />
+
           </form>
         </div>
       );
